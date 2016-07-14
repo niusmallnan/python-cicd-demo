@@ -1,0 +1,5 @@
+export RANCHER_URL=http://103.39.107.62:8080/
+# Set the access key, i.e. username
+export RANCHER_ACCESS_KEY=ACB43CBDCB2117948529
+# Set the secret key, i.e. password
+export RANCHER_SECRET_KEY=bMr2dghdToCrK6trfvMW87X4rkBkdvvxFyCB6DDc

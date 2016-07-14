@@ -1,0 +1,7 @@
+*.pyc
+*.example
+*.txt
+*.js
+scripts
+profile
+compose

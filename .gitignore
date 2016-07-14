@@ -1,0 +1,10 @@
+*.egg*
+*.mo
+*.pyc
+*.sw?
+*.sqlite3
+tags
+.idea/
+*/migrations
+my.conf
+.venv
