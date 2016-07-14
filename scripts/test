@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd $(dirname $0)/..
+
+docker run --rm python-cicd-demo python manage.py test
