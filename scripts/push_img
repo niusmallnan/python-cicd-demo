@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-docker tag python-cicd-demo index.alauda.cn/python-cicd-demo
-docker login -u niusmallnan -p zzb1988o526 -e 584107985@qq.com index.alauda.cn
-docker push index.alauda.cn/niusmallnan/python-cicd-demo
+REP='index.alauda.cn'
+NS='niusmallnan'
+
+docker tag python-cicd-demo $REP/$NS/python-cicd-demo
+docker login -u niusmallnan -p zzb1988o526 -e 584107985@qq.com $REP
+docker push $REP/$NS/python-cicd-demo
+docker rmi $REP/$NS/python-cicd-demo
