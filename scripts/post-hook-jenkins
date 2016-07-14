@@ -1,0 +1,2 @@
+!/bin/bash
+/usr/bin/curl http://103.39.107.113:8080/git/notifyCommit?url=https://github.com/niusmallnan/python-cicd-demo.git
