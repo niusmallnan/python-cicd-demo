@@ -1,0 +1,6 @@
+animal-service:
+  ports:
+  - 8000:8000/tcp
+  tty: true
+  image: index.alauda.cn/niusmallnan/python-cicd-demo
+  stdin_open: true
