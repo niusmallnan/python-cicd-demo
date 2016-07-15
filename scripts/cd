@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+
+cd $(dirname $0)/../compose
+
+source profile.rc
+rancher-compose -p animal-dev \
+    --verbose up \
+    -d --force-upgrade --pull --confirm-upgrade animal-service
+
